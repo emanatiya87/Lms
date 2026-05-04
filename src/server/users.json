@@ -1,0 +1,495 @@
+{
+  "users": [
+    {
+      "fullName": "e",
+      "email": "m",
+      "password": "2",
+      "role": "student",
+      "id": "nCd5O6Q_OUU"
+    },
+    {
+      "fullName": "test",
+      "email": "tset",
+      "password": "425",
+      "role": "student",
+      "id": "6uDGTKCd4Ik"
+    },
+    {
+      "fullName": "e",
+      "email": "emanatiya87@gmail.com",
+      "password": "2",
+      "role": "student",
+      "id": "xTqZqSBxNC8"
+    },
+    {
+      "fullName": "e",
+      "email": "emanatiya87@gmail.com",
+      "password": "7",
+      "role": "student",
+      "id": "XzPyeCrlVvs"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "fUR2njbS6S0"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "CP2THeF_mGI"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "sHjEu5Ao83g"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "yTxBtf_6lQ0"
+    },
+    {
+      "fullName": "e",
+      "email": "emanatiya87@gmail.com",
+      "password": "7",
+      "role": "student",
+      "id": "onFJjwpUqUU"
+    },
+    {
+      "fullName": "e",
+      "email": "emanatiya87@gmail.com",
+      "password": ",",
+      "role": "student",
+      "id": "BgYdP3Qd2Gw"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "TKw4hRKQhK8"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "cZgTqby2ogw"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "6_Wjji-QzTY"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "A1Nhhb_HXSw"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "4dnVkCkmVgw"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "q1K8Nyhleog"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "HJiCIMj0OhM"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "57VrPePyyoA"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "Ct5MRmjcVOw"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "OQZenFmSNa4"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "w8i5fDTky9E"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "C_zGBwGB9PU"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "sio7WMMkndI"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "j5uZbIydOyM"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "VOVP9YHes_U"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "LTU4UVrmXdc"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "NV9JNiPbAGU"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "xrkrntinarc"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "rE_R1WBVD1Y"
+    },
+    {
+      "fullName": "e",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "dcbahUYpYO0"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "zUiTnWTofcI"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "mdHL2JpuZco"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "SuB_nP1B3SM"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "bRhVuU4xfLs"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "dPrQ3kwdkus"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "5i3x-FqzGsM"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "hdI1Ms044qE"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "K8AvTwVL7vo"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "7SFv610PW_0"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "slCsp5KJGfs"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "F6Zlmf3zYwg"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "khMwCZFQezE"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "PEmsHjv-KxA"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "yulaSaUzqJo"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "z1qK9oU6HFk"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "_fy3_0W_lTU"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "xrVQ_t0nJYQ"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "TAduB5TevAY"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "X_iP7fHAkvg"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "x7b10DK1O_o"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "rVmKJ5XSU18"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "vLq1gYEoXlw"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "Zy8dIrX3KLE"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "2Sdk9PeXgzA"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "pfg_3LxCN4c"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "EZiIZ_FZGgQ"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "rtoTHR3y8jM"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "nL1EsCWCkjk"
+    },
+    {
+      "fullName": "test",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "BbMnhoFXx94"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "UoytPkMaKxo"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "2wYsRf643kY"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "YCOSVl44drs"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "x9dClvDsIng"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "R9WAOEIofhE"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "CJ-DUbiRSqI"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "qAXcH7UMMu4"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "fFT2TanLGBQ"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "0OAFDJG1Ma8"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "wdgw26UDIec"
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "role": "student",
+      "id": "5FCH4ChB3K0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
