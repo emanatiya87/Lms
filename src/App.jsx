@@ -7,7 +7,7 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 const AdminDashboard = lazy(() => import("./pages/AdminDashboard"));
 const CourseDetails = lazy(() => import("./pages/CourseDetails"));
 const Courses = lazy(() => import("./pages/Courses"));
-const Layout = lazy(() => import("./pages/layout"));
+const Layout = lazy(() => import("./pages/Layout"));
 const Login = lazy(() => import("./pages/Login"));
 const Profile = lazy(() => import("./pages/Profile"));
 const Register = lazy(() => import("./pages/Register"));
