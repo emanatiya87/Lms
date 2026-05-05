@@ -8,6 +8,7 @@
 //   },
 // });
 // export default store;
+import coursesReducer from "./slices/coursesSlice";
 import { configureStore } from "@reduxjs/toolkit";
 import usersSliceReducer from "./slices/users";
 import toastReducer from "./slices/toastSlice";
@@ -26,6 +27,7 @@ const store = configureStore({
   reducer: {
     user: usersSliceReducer,
     toast: toastReducer,
+    courses: coursesReducer,
   },
   preloadedState: {
     user: loadUserState(),

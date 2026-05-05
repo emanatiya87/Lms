@@ -1,18 +1,9 @@
-// import React from "react";
-// import LogoutBtn from "./Logout";
-// export default function Navbar() {
-//   return (
-//     <div>
-//       nav
-//       <LogoutBtn></LogoutBtn>
-//     </div>
-//   );
-// }
 import { useState, useEffect, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, NavLink } from "react-router-dom";
 import { clearUser } from "../redux/slices/users";
 import LogoutBtn from "./Logout";
+import Logo from "../components/Logo";
 export default function Navbar() {
   const { token, fullName, email, role } = useSelector((state) => state.user);
   const dispatch = useDispatch();
@@ -24,7 +15,6 @@ export default function Navbar() {
 
   const isLoggedIn = !!token;
 
-  // 🖱️ Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
@@ -35,53 +25,43 @@ export default function Navbar() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  // 🔤 Get first letter
   const getInitials = (name) => name?.trim().charAt(0).toUpperCase() || "U";
 
   return (
     <nav className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        {/* 🔹 Logo */}
-        <Link
-          to="/"
-          className="text-xl font-bold text-gray-800 hover:text-blue-600 transition"
-        >
-          EduPlatform
-        </Link>
+        <Logo></Logo>
 
-        {/* 🔹 Desktop Nav Links */}
         <div className="hidden md:flex space-x-6 items-center">
-          <Link
+          <NavLink
             to="/"
-            className="text-gray-600 hover:text-blue-600 font-medium transition"
+            className={({ isActive }) => {
+              return ` font-medium transition p-2 rounded-xl ${isActive ? "text-blue-600 bg-blue-50" : "text-gray-600 hover:text-blue-600 "}`;
+            }}
           >
             Home
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             to="/courses"
-            className="text-gray-600 hover:text-blue-600 font-medium transition"
+            className={({ isActive }) => {
+              return ` font-medium transition p-2 rounded-xl ${isActive ? "text-blue-600 bg-blue-50" : "text-gray-600 hover:text-blue-600 "}`;
+            }}
           >
             Courses
-          </Link>
-          <Link
-            to="/about"
-            className="text-gray-600 hover:text-blue-600 font-medium transition"
-          >
-            About
-          </Link>
+          </NavLink>
 
-          {/* 🎓 Role-based Dashboard link */}
           {isLoggedIn && role?.toLowerCase() === "tutor" && (
-            <Link
+            <NavLink
               to="/dashboard"
-              className="text-blue-600 bg-blue-50 px-3 py-1.5 rounded-md font-medium hover:bg-blue-100 transition"
+              className={({ isActive }) => {
+                return ` font-medium transition p-2 rounded-xl ${isActive ? "text-blue-600 bg-blue-50" : "text-gray-600 hover:text-blue-600 "}`;
+              }}
             >
               Dashboard
-            </Link>
+            </NavLink>
           )}
         </div>
 
-        {/* 🔹 User Section (Desktop & Mobile) */}
         <div className="flex items-center gap-3">
           {isLoggedIn ? (
             <div className="relative" ref={dropdownRef}>
@@ -95,9 +75,8 @@ export default function Navbar() {
                 </div>
                 {/* Email (Hidden on small screens) */}
                 <span className="text-sm text-gray-600 max-w-30 truncate hidden md:block">
-                  {email}
+                  {fullName}
                 </span>
-                {/* Chevron Down Icon */}
                 <svg
                   className={`w-4 h-4 text-gray-400 transition-transform ${isDropdownOpen ? "rotate-180" : ""}`}
                   fill="none"
@@ -113,7 +92,6 @@ export default function Navbar() {
                 </svg>
               </button>
 
-              {/* Dropdown Menu */}
               {isDropdownOpen && (
                 <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 overflow-hidden animate-fade-in-down">
                   <div className="px-4 py-2 border-b border-gray-100 md:hidden">
@@ -135,7 +113,6 @@ export default function Navbar() {
             </Link>
           )}
 
-          {/* 🔹 Mobile Menu Button */}
           <button
             className="md:hidden p-2 text-gray-600 hover:bg-gray-100 rounded-md"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -173,7 +150,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* 🔹 Mobile Nav Links Dropdown */}
       {isMenuOpen && (
         <div className="md:hidden bg-white border-t border-gray-100 shadow-lg absolute w-full left-0">
           <div className="flex flex-col p-4 space-y-3">
@@ -191,22 +167,15 @@ export default function Navbar() {
             >
               Courses
             </Link>
-            <Link
-              to="/about"
-              onClick={() => setIsMenuOpen(false)}
-              className="text-gray-700 font-medium py-2 px-3 rounded hover:bg-gray-50"
-            >
-              About
-            </Link>
 
             {isLoggedIn && role?.toLowerCase() === "tutor" && (
-              <Link
+              <NavLink
                 to="/dashboard"
                 onClick={() => setIsMenuOpen(false)}
                 className="text-blue-600 font-medium py-2 px-3 rounded bg-blue-50"
               >
                 Dashboard
-              </Link>
+              </NavLink>
             )}
           </div>
         </div>

@@ -1,0 +1,102 @@
+{
+  "mockCourses": [
+    {
+      "id": "1",
+      "title": "React Native Mobile Development",
+      "subtitle": "Cross-platform mobile apps with React Native",
+      "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.5,
+      "reviewCount": 8920,
+      "enrolledCount": 8920,
+      "level": "Intermediate",
+      "price": 94.99,
+      "category": "Mobile Development",
+      "instructor": {
+        "name": "Lisa Anderson",
+        "avatar": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=200&q=80",
+        "rating": 4.5,
+        "students": 8920
+      },
+      "description": "Build cross-platform mobile apps with React Native. Learn to create apps for both iOS and Android using JavaScript.",
+      "curriculum": [
+        { "id": 1, "title": "React Native Setup", "duration": "1h" },
+        { "id": 2, "title": "Components & Navigation", "duration": "2h 30min" },
+        { "id": 3, "title": "State Management", "duration": "2h" },
+        { "id": 4, "title": "Native Features", "duration": "3h" }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Full-Stack Web Development",
+      "subtitle": "HTML, CSS, JavaScript, Node.js, MongoDB",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.7,
+      "reviewCount": 12400,
+      "enrolledCount": 15000,
+      "level": "Beginner",
+      "price": 129.99,
+      "category": "Web Development",
+      "instructor": {
+        "name": "Michael Johnson",
+        "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&q=80",
+        "rating": 4.8,
+        "students": 22000
+      },
+      "description": "Become a full-stack web developer by learning front-end and back-end technologies from scratch.",
+      "curriculum": [
+        { "id": 1, "title": "HTML & CSS Basics", "duration": "2h" },
+        { "id": 2, "title": "JavaScript Foundations", "duration": "5h" },
+        { "id": 3, "title": "Advanced React", "duration": "4h" },
+        { "id": 4, "title": "Node.js & MongoDB", "duration": "3h 30min" }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "UI/UX Design Masterclass",
+      "subtitle": "Design modern interfaces using Figma",
+      "image": "https://images.unsplash.com/photo-1559027615-5cdaedc75b2a?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.6,
+      "reviewCount": 6800,
+      "enrolledCount": 7200,
+      "level": "Intermediate",
+      "price": 79.99,
+      "category": "Design",
+      "instructor": {
+        "name": "Sarah Mitchell",
+        "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+        "rating": 4.6,
+        "students": 12000
+      },
+      "description": "Learn UI/UX fundamentals and design beautiful user-friendly interfaces using industry-standard tools.",
+      "curriculum": [
+        { "id": 1, "title": "Design Principles", "duration": "1h 20min" },
+        { "id": 2, "title": "Wireframes & Prototyping", "duration": "3h" },
+        { "id": 3, "title": "Figma Advanced Tools", "duration": "2h" }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Python for Data Science",
+      "subtitle": "Pandas, NumPy, Matplotlib, Machine Learning",
+      "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.8,
+      "reviewCount": 15800,
+      "enrolledCount": 23000,
+      "level": "Advanced",
+      "price": 149.99,
+      "category": "Data Science",
+      "instructor": {
+        "name": "David Carter",
+        "avatar": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=200&q=80",
+        "rating": 4.8,
+        "students": 32000
+      },
+      "description": "Master data analysis and machine learning using Python with real-world datasets.",
+      "curriculum": [
+        { "id": 1, "title": "Python Essentials", "duration": "1h 30min" },
+        { "id": 2, "title": "Data Analysis with Pandas", "duration": "3h" },
+        { "id": 3, "title": "Machine Learning Models", "duration": "4h 20min" }
+      ]
+    }
+  ]
+}

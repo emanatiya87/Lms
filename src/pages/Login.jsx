@@ -18,6 +18,7 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import GoogleSignin from "../components/GoogleSignin";
 import FromLogin from "../components/forms/FromLogin";
+import Logo from "../components/Logo";
 export default function Login() {
   return (
     <>
@@ -38,7 +39,7 @@ export default function Login() {
             }}
           >
             <Box sx={{ position: "absolute", top: "30px", left: "20px" }}>
-              logo
+              <Logo></Logo>
             </Box>
             <Typography variant="h3" component="h3" sx={{ color: "#fff" }}>
               Welcome back. Keep growing.

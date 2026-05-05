@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Box, Button, Grid, Stack, TextField, Typography } from "@mui/material";
-
+import Logo from "../../components/Logo";
 import PasswordInput from "../PasswordInput";
 import GoogleSignin from "../GoogleSignin";
 
@@ -85,7 +85,7 @@ export default function FromLogin() {
             left: "20px",
           }}
         >
-          Logo
+          <Logo />{" "}
         </Box>
 
         <Box sx={{ width: "70%" }}>
