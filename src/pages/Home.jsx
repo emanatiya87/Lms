@@ -1,11 +1,11 @@
 import React from "react";
-import { useSelector } from "react-redux";
 import Hero from "../components/Hero";
+import SomeCourses from "../components/someCouses";
 export default function Home() {
-  const { fullName, role } = useSelector((state) => state.user);
   return (
     <>
       <Hero />
+      <SomeCourses />
     </>
   );
 }

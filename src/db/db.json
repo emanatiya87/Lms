@@ -1,60 +1,96 @@
 {
   "mockCourses": [
     {
-      "id": "1",
-      "title": "React Native Mobile Development",
+      "title": "React Native Development",
       "subtitle": "Cross-platform mobile apps with React Native",
+      "description": "Build cross-platform mobile apps with React Native. Learn to create apps for both iOS and Android using JavaScript.",
+      "category": "Mobile Development",
+      "level": "Intermediate",
+      "price": 94.99,
       "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=1200&q=80",
+      "id": "1",
       "rating": 4.5,
       "reviewCount": 8920,
       "enrolledCount": 8920,
-      "level": "Intermediate",
-      "price": 94.99,
-      "category": "Mobile Development",
       "instructor": {
         "name": "Lisa Anderson",
         "avatar": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=200&q=80",
         "rating": 4.5,
         "students": 8920
       },
-      "description": "Build cross-platform mobile apps with React Native. Learn to create apps for both iOS and Android using JavaScript.",
       "curriculum": [
-        { "id": 1, "title": "React Native Setup", "duration": "1h" },
-        { "id": 2, "title": "Components & Navigation", "duration": "2h 30min" },
-        { "id": 3, "title": "State Management", "duration": "2h" },
-        { "id": 4, "title": "Native Features", "duration": "3h" }
-      ]
+        {
+          "id": 1,
+          "title": "React Native Setup",
+          "duration": "1h"
+        },
+        {
+          "id": 2,
+          "title": "Components & Navigation",
+          "duration": "2h 30min"
+        },
+        {
+          "id": 3,
+          "title": "State Management",
+          "duration": "2h"
+        },
+        {
+          "id": 4,
+          "title": "Native Features",
+          "duration": "3h"
+        }
+      ],
+      "createdAt": "2026-05-07T05:41:08.366Z",
+      "updatedAt": "2026-05-07T05:41:27.413Z"
     },
     {
-      "id": "2",
-      "title": "Full-Stack Web Development",
+      "title": "Full-Stack Web Development course",
       "subtitle": "HTML, CSS, JavaScript, Node.js, MongoDB",
+      "description": "Become a full-stack web developer by learning front-end and back-end technologies from scratch.",
+      "category": "Web Development",
+      "level": "Beginner",
+      "price": 129.99,
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+      "id": "2",
       "rating": 4.7,
       "reviewCount": 12400,
       "enrolledCount": 15000,
-      "level": "Beginner",
-      "price": 129.99,
-      "category": "Web Development",
       "instructor": {
         "name": "Michael Johnson",
         "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&q=80",
         "rating": 4.8,
         "students": 22000
       },
-      "description": "Become a full-stack web developer by learning front-end and back-end technologies from scratch.",
       "curriculum": [
-        { "id": 1, "title": "HTML & CSS Basics", "duration": "2h" },
-        { "id": 2, "title": "JavaScript Foundations", "duration": "5h" },
-        { "id": 3, "title": "Advanced React", "duration": "4h" },
-        { "id": 4, "title": "Node.js & MongoDB", "duration": "3h 30min" }
-      ]
+        {
+          "id": 1,
+          "title": "HTML & CSS Basics",
+          "duration": "2h"
+        },
+        {
+          "id": 2,
+          "title": "JavaScript Foundations",
+          "duration": "5h"
+        },
+        {
+          "id": 3,
+          "title": "Advanced React",
+          "duration": "4h"
+        },
+        {
+          "id": 4,
+          "title": "Node.js & MongoDB",
+          "duration": "3h 30min"
+        }
+      ],
+      "createdAt": "2026-05-07T05:51:48.792Z",
+      "updatedAt": "2026-05-07T05:52:13.032Z"
     },
     {
       "id": "3",
       "title": "UI/UX Design Masterclass",
       "subtitle": "Design modern interfaces using Figma",
-      "image": "https://images.unsplash.com/photo-1559027615-5cdaedc75b2a?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://plus.unsplash.com/premium_photo-1661412938808-a0f7be3c8cf1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dWl1eHxlbnwwfHwwfHx8MA%3D%3D",
       "rating": 4.6,
       "reviewCount": 6800,
       "enrolledCount": 7200,
@@ -69,9 +105,21 @@
       },
       "description": "Learn UI/UX fundamentals and design beautiful user-friendly interfaces using industry-standard tools.",
       "curriculum": [
-        { "id": 1, "title": "Design Principles", "duration": "1h 20min" },
-        { "id": 2, "title": "Wireframes & Prototyping", "duration": "3h" },
-        { "id": 3, "title": "Figma Advanced Tools", "duration": "2h" }
+        {
+          "id": 1,
+          "title": "Design Principles",
+          "duration": "1h 20min"
+        },
+        {
+          "id": 2,
+          "title": "Wireframes & Prototyping",
+          "duration": "3h"
+        },
+        {
+          "id": 3,
+          "title": "Figma Advanced Tools",
+          "duration": "2h"
+        }
       ]
     },
     {
@@ -93,10 +141,45 @@
       },
       "description": "Master data analysis and machine learning using Python with real-world datasets.",
       "curriculum": [
-        { "id": 1, "title": "Python Essentials", "duration": "1h 30min" },
-        { "id": 2, "title": "Data Analysis with Pandas", "duration": "3h" },
-        { "id": 3, "title": "Machine Learning Models", "duration": "4h 20min" }
+        {
+          "id": 1,
+          "title": "Python Essentials",
+          "duration": "1h 30min"
+        },
+        {
+          "id": 2,
+          "title": "Data Analysis with Pandas",
+          "duration": "3h"
+        },
+        {
+          "id": 3,
+          "title": "Machine Learning Models",
+          "duration": "4h 20min"
+        }
       ]
+    },
+    {
+      "id": "uksWbervLNY",
+      "title": "front End -movile cross",
+      "subtitle": "test",
+      "image": "https://plus.unsplash.com/premium_photo-1667520168395-c1f60f1d6996?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dHV0b3J8ZW58MHx8MHx8fDA%3D",
+      "rating": 0,
+      "reviewCount": 0,
+      "enrolledCount": 0,
+      "level": "Intermediate",
+      "price": 123,
+      "category": "Web Development",
+      "description": "desc",
+      "instructor": {
+        "name": "eman",
+        "avatar": "https://media.istockphoto.com/id/2269936899/photo/smiling-3d-businessman-character-pointing-and-giving-thumbs-up.webp?a=1&b=1&s=612x612&w=0&k=20&c=OmuMG2Exnv9LpfbOYZPOBnF1ByXbd5iQDvnKAxXSIxI=",
+        "rating": 0,
+        "students": 0
+      },
+      "curriculum": [],
+      "createdAt": "2026-05-07T05:52:58.524Z",
+      "updatedAt": "2026-05-07T05:52:58.526Z"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

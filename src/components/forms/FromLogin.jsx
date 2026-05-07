@@ -85,19 +85,17 @@ export default function FromLogin() {
             left: "20px",
           }}
         >
-          <Logo />{" "}
+          <Logo />
         </Box>
 
         <Box sx={{ width: "70%" }}>
-          {/* Title */}
           <Stack spacing={1} mb={2}>
             <Typography variant="h3">Sign in</Typography>
             <Typography variant="body1" color="textSecondary">
-              Welcome back to LumenLMS.
+              Welcome back to your learning journy.
             </Typography>
           </Stack>
 
-          {/* Form */}
           <Stack component="form" spacing={2} onSubmit={handleSubmit}>
             <TextField
               label="Email"

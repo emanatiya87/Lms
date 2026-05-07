@@ -4,6 +4,7 @@ import Grid from "@mui/material/Grid";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import FromRegister from "../components/forms/FormReister";
+import Logo from "../components/Logo";
 export default function Register() {
   return (
     <>
@@ -27,7 +28,7 @@ export default function Register() {
             }}
           >
             <Box sx={{ position: "absolute", top: "30px", left: "20px" }}>
-              logo
+              <Logo />
             </Box>
             <Typography variant="h3" component="h3" sx={{ color: "#fff" }}>
               Join 80,000+ learners worldwide.{" "}

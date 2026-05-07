@@ -11,7 +11,7 @@ export default function Logo() {
         <GraduationCap className="w-5 h-5" />
       </span>
       <span className="tracking-tight">
-        name<span className="text-primary">LMS</span>
+        <span className="text-primary">Courses App</span>
       </span>
     </Link>
   );

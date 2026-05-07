@@ -7,6 +7,7 @@ import { auth, db } from "../../config/firebase";
 import { showToast } from "../../redux/slices/toastSlice";
 import RegisterFields from "../RegisterFields";
 import { useNavigate } from "react-router";
+import Logo from "../Logo";
 export default function FormRegister() {
   const dispatch = useDispatch();
   const navigator = useNavigate();
@@ -24,7 +25,6 @@ export default function FormRegister() {
     setError("");
 
     try {
-      // Firebase Auth
       const userCredential = await createUserWithEmailAndPassword(
         auth,
         form.email,
@@ -33,7 +33,6 @@ export default function FormRegister() {
 
       const user = userCredential.user;
 
-      // Save to Firestore
       await setDoc(doc(db, "users-collection", user.uid), {
         fullName: form.fullName,
         email: form.email,
@@ -68,6 +67,16 @@ export default function FormRegister() {
         width: "100%",
       }}
     >
+      <Box
+        sx={{
+          display: { xs: "block", lg: "none" },
+          position: "absolute",
+          top: "20px",
+          left: "20px",
+        }}
+      >
+        <Logo />{" "}
+      </Box>
       <Stack spacing={1}>
         <Typography variant="h4">Create your account</Typography>
         <Typography variant="body1" color="textSecondary">

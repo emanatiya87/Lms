@@ -141,12 +141,8 @@ export default function CourseDetails() {
               <Grid item xs={12} md={5}>
                 <Card className="shadow-2xl">
                   <CardContent className="p-0">
-                    {/*img to do */}
-                    <Box className="relative bg-gray-900 aspect-video flex items-center justify-center group cursor-pointer">
-                      <Box className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors" />
-                      {/* <Box className="relative z-10 w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-                      <PlayCircleOutline className="text-blue-600 w-8 h-8 ml-1" />
-                    </Box> */}
+                    <Box className="relative  flex items-center justify-center group cursor-pointer w-82">
+                      <img src={courseData.image} alt="" />
                     </Box>
 
                     <Box className="p-6">

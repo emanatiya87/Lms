@@ -23,7 +23,7 @@ function App() {
       element: <Layout></Layout>,
       children: [
         { index: true, element: <Home /> },
-        { path: "admin-dashboard", element: <AdminDashboard /> },
+        { path: "dashboard", element: <AdminDashboard /> },
         { path: "courses", element: <Courses /> },
         { path: ":id", element: <Courses /> },
         { path: "profile", element: <Profile /> },

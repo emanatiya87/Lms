@@ -22,11 +22,9 @@ export default function GoogleSignin() {
 
       const token = await user.getIdToken();
 
-      // 💾 localStorage
       localStorage.setItem("token", token);
       localStorage.setItem("uid", user.uid);
 
-      // 🔥 Firestore check
       const userRef = doc(db, "users-collection", user.uid);
       const userSnap = await getDoc(userRef);
 
@@ -50,7 +48,6 @@ export default function GoogleSignin() {
         };
       }
 
-      // 🟢 Redux SAVE USER
       dispatch(
         setUser({
           uid: user.uid,
@@ -62,7 +59,6 @@ export default function GoogleSignin() {
         }),
       );
 
-      // 🟢 Toast
       dispatch(
         showToast({
           msg: "Logged in successfully",
@@ -70,7 +66,6 @@ export default function GoogleSignin() {
         }),
       );
 
-      // 🚀 redirect
       navigate("/");
     } catch (error) {
       dispatch(

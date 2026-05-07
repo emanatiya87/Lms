@@ -6,7 +6,6 @@ import Footer from "../components/Footer";
 export default function Layout() {
   const location = useLocation();
 
-  // Hide layout on auth pages
   const isAuthPage =
     location.pathname === "/login" || location.pathname === "/register";
 
