@@ -1,16 +1,71 @@
-# React + Vite
+# 🎓 CourseFlow LMS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern, secure, and role-based Learning Management System built with **React**, **Tailwind CSS**, **Material-UI**, **Firebase**, and **Stripe**. Tutors can create and manage courses, while students can discover, purchase, and track their learning progress—all within a unified, responsive interface.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.0-38B2AC?logo=tailwind-css)
+![MUI](https://img.shields.io/badge/MUI-5.14.0-007FFF?logo=mui)
+![Firebase](https://img.shields.io/badge/Firebase-10.5.0-FFCA28?logo=firebase)
+![Stripe](https://img.shields.io/badge/Stripe-6.0.0-635BFF?logo=stripe)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔐 Authentication & Security
+- **Google Sign-In** via Firebase Auth
+- **Role-Based Access Control** (`tutor` | `student`)
+- Protected routes & session persistence
 
-## Expanding the ESLint configuration
+###  Payments & Monetization
+- **Stripe Checkout** for secure course purchases
+- Webhook-ready architecture for payment confirmation
+- Receipt generation & purchase history
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎭 Role-Based UI
+| 👨‍🏫 Tutor View | 🎓 Student View |
+|------------------|-----------------|
+| ✅ Create & edit courses | ✅ Browse & search catalog |
+| ✅ Manage curriculum & pricing | ✅ Enroll & pay via Stripe |
+| ✅ View enrolled students | ✅ Access purchased courses |
+| ✅ Dashboard analytics | ✅ Progress tracking & certificates |
+
+### 📚 Core Functionality
+- Full CRUD operations for course management
+- Advanced filtering (category, search, level)
+- Redux Toolkit for predictable state management
+- Responsive design with Tailwind CSS + MUI components
+- Safe rendering & fallbacks for partial/missing data
+
+---
+
+##  Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | React 18, React Router v6, Redux Toolkit |
+| **Styling** | Tailwind CSS, Material-UI (MUI) |
+| **Auth & DB** | Firebase Authentication, Firestore, Cloud Storage |
+| **Payments** | Stripe API, `@stripe/react-stripe-js` |
+| **State** | Redux Toolkit (Async Thunks, Slices) |
+| **DevOps** | Vite / Create React App, ESLint, Prettier |
+
+---
+
+## 📋 Prerequisites
+
+- Node.js `16+` & npm/yarn
+- Firebase Project (Authentication, Firestore, Storage enabled)
+- Stripe Account (Publishable & Secret keys)
+- Google Cloud Project (OAuth 2.0 Client ID for Firebase)
+
+---
+
+##  Installation & Setup
+
+### 1. Clone & Install
+```bash
+git clone https://github.com/yourusername/courseflow-lms.git
+cd courseflow-lms
+npm install
