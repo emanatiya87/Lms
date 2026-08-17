@@ -66,6 +66,6 @@
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/yourusername/courseflow-lms.git
-cd courseflow-lms
+git clone https://github.com/emanatiya87/Lms
+cd Lms
 npm install
