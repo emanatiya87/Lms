@@ -69,3 +69,34 @@
 git clone https://github.com/emanatiya87/Lms
 cd Lms
 npm install
+
+
+### 2. Configure Environment Variables
+Create a .env file in the root directory
+
+###3. Firebase Setup
+Go to Firebase Console
+Enable Authentication → Add Google sign-in provider
+Enable Firestore Database → Start in production mode
+Enable Storage → Set rules to allow authenticated reads/writes
+Add your web app & copy config to .env
+
+###4. Stripe Setup
+Create a Stripe Account
+Navigate to Developers → API keys
+Copy Publishable key to .env
+(Optional) Set up webhook endpoints for payment confirmation
+
+###5. Run Development Server
+npm start
+# or
+npm run dev
+
+📬 Contact
+Eman
+📧 emanatiya87@gmail.com
+
+🔗 Portfolio : https://eman-atia-portfolio-lyart.vercel.app/ /LinkedIn: https://www.linkedin.com/in/eman-atiya-6245b0294/
+<p align="center">Built with Love!❤️ for educators and learners worldwide</p>
+
+
